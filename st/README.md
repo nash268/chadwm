@@ -50,7 +50,7 @@ Add `st.url = "github:siduck/st";` to your inputs and install `inputs.st.package
 
 ## Fonts
 
-- Install JetbrainsMono Mono Nerd Font or any nerd font from [here](https://www.nerdfonts.com/font-downloads)
+- Install 0xProto Mono Nerd Font or any nerd font from [here](https://www.nerdfonts.com/font-downloads)
 
 ## Patches:
 
@@ -112,7 +112,7 @@ you can change all of these in config.h
 
 - ls-icons: https://github.com/Yash-Handa/logo-ls <br>
 - Xresources: onedark (just `xrdb merge xresourcesfile`, do this everytime you make any change to xresources file) from this repo itself.<br>
-- Font: JetbrainsMono Nerd Font + material design icon fonts
+- Font: 0xProto Nerd Font + material design icon fonts
 
 
 # Credits
