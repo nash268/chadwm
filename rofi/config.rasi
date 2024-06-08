@@ -2,17 +2,17 @@ configuration{
     modi: "run,drun,window";
     lines: 5;
     font: "Iosevka 12";
-    show-icons: true;
-    icon-theme: "Paper Mono";
+    show-icons: false;
+    //icon-theme: "Paper Mono";
     terminal: "st";
-    drun-display-format: "{icon} {name}";
+    drun-display-format: "{name}";
     location: 0;
     disable-history: false;
     hide-scrollbar: true;
     display-drun: "   Apps ";
 }
 
-@theme "everblush"
+@theme "onedark"
 
 element-text, element-icon , mode-switcher {
     background-color: inherit;

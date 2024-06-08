@@ -37,7 +37,7 @@ static const int new_window_attach_on_end = 0; /*  1 means the new window will a
 #define ICONSIZE 19   /* icon size */
 #define ICONSPACING 8 /* space between icon and title */
 
-static const char *fonts[]          = {"Iosevka:style:medium:size=12" ,"JetBrainsMono Nerd Font Mono:style:medium:size=19" };
+static const char *fonts[]          = {"Iosevka:style:medium:size=12" ,"0xProto Nerd Font Mono:style:medium:size=19" };
 
 // theme
 #include "themes/onedark.h"
@@ -64,11 +64,11 @@ static const char *colors[][3]      = {
 /* tagging */
 static char *tags[] = {"", "", "", "", ""};
 
-static const char* eww[] = { "eww", "open" , "eww", NULL };
+static const char* open_rofi[] = { "rofi", "-show" , "drun"};
 
 static const Launcher launchers[] = {
     /* command     name to display */
-    { eww,         "" },
+    { open_rofi,         "" },
 };
 
 static const int tagschemes[] = {
@@ -144,10 +144,8 @@ static const Key keys[] = {
 	{0,				XF86XK_MonBrightnessDown,	spawn,	{.v = light_down}},
 
     // screenshot fullscreen and cropped
-    {MODKEY|ControlMask,                XK_u,       spawn,
-        SHCMD("maim | xclip -selection clipboard -t image/png")},
-    {MODKEY,                            XK_u,       spawn,
-        SHCMD("maim --select | xclip -selection clipboard -t image/png")},
+    {MODKEY,                            XK_Print,       spawn,
+        SHCMD("gnome-screenshot")},
 
     { MODKEY,                           XK_c,       spawn,          SHCMD("rofi -show drun") },
     { MODKEY,                           XK_Return,  spawn,            SHCMD("st")},
