@@ -45,17 +45,17 @@ alias chadwm='startx ~/.config/chadwm/scripts/run.sh'
 
 ## With Display Manager
 
-- Create a desktop entry (make sure to change `user` with your user):
+- Create a desktop entry:
 
 ```shell
-sudo touch /usr/share/xsessions/chadwm.desktop  
+sudo vim /usr/share/xsessions/chadwm.desktop  
 ```
 
 ```
 [Desktop Entry]
 Name=chadwm
 Comment=dwm made beautiful 
-Exec=/home/user/.config/chadwm/scripts/./run.sh 
+Exec=/home/nesh/.config/chadwm/scripts/./run.sh 
 Type=Application 
 ```
 
@@ -75,6 +75,16 @@ sudo make install
 - Bar  : in bar.sh (line 9) and config.def.h (line 35)
 - rofi : in config.rasi (line 15)
 
+# Natural scroll
+
+- check device name with: 
+```shell
+xinput list
+```
+- add line to `~/.config/chadwm/scripts/run.sh` :
+```shell
+xinput set-prop "<device name>" "libinput Natural Scrolling Enabled" 1
+```
 
 # Credits
 
