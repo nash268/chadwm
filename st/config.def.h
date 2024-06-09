@@ -114,32 +114,32 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 1.0;
+float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-  "#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-  "#cc241d",
-  "#98971a",
-  "#d79921",
-  "#458588",
-  "#b16286",
-  "#689d6a",
-  "#a89984",
-  "#928374",
-  "#fb4934",
-  "#b8bb26",
-  "#fabd2f",
-  "#83a598",
-  "#d3869b",
-  "#8ec07c",
-  "#ebdbb2",
+  "#282c34", /* black */
+  "#e06c75", /* red */
+  "#98c379", /* green */
+  "#e5c07b", /* yellow */
+  "#61afef", /* blue */
+  "#c678dd", /* magenta */
+  "#56b6c2", /* cyan */
+  "#abb2bf", /* light gray */
+  "#545862", /* dark gray */
+  "#d19a66", /* bright red */
+  "#98c379", /* bright green */
+  "#e5c07b", /* bright yellow */
+  "#56b6c2", /* bright blue */
+  "#c678dd", /* bright magenta */
+  "#be5046", /* bright cyan */
+  "#c8ccd4", /* white */
   [255] = 0,
   /* more colors can be added after 255 to use with DefaultXX */
-  "#add8e6", /* 256 -> cursor */
-  "#555555", /* 257 -> rev cursor*/
-  "#282828", /* 258 -> bg */
-  "#ffffff", /* 259 -> fg */
+  "#abb2bf", /* 256 -> cursor */
+  "#555555", /* 257 -> rev cursor */
+  "#1e222a", /* 258 -> bg */
+  "#c8ccd4", /* 259 -> fg */
 };
 
 
