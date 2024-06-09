@@ -8,6 +8,7 @@ This document provides a comprehensive list of key combinations and their corres
 |-----------------------|-------------------------|----------------------------------------|
 | `MODKEY + c`          | Launch application menu | `spawn SHCMD("rofi -show drun")`       |
 | `MODKEY + Return`     | Open terminal           | `spawn SHCMD("st")`                    |
+| `Print`               | Gnome-screenshot        | `spawn  SHCMD("gnome-screenshot")`     |
 
 ## Toggle Features
 
