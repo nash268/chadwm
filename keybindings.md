@@ -1,6 +1,5 @@
-# Window Manager Key Bindings
+# Chadwm Key Bindings
 
-This document provides a comprehensive list of key combinations and their corresponding actions in the window manager setup.
 
 ## Launch Programs
 
