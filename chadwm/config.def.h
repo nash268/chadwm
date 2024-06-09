@@ -144,7 +144,7 @@ static const Key keys[] = {
 	{0,				XF86XK_MonBrightnessDown,	spawn,	{.v = light_down}},
 
     // screenshot fullscreen and cropped
-    {MODKEY,                            XK_Print,       spawn,
+    {0,                            XK_Print,       spawn,
         SHCMD("gnome-screenshot")},
 
     { MODKEY,                           XK_c,       spawn,          SHCMD("rofi -show drun") },
