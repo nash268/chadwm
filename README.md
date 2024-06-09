@@ -77,9 +77,12 @@ sudo make install
 
 # Natural scroll
 
-- check device name with: 
+- check device and value name with: 
 ```shell
 xinput list
+```
+```shell
+xinput list-props <device name>
 ```
 - add line to `~/.config/chadwm/scripts/run.sh` :
 ```shell
