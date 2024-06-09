@@ -120,3 +120,42 @@ This document provides a comprehensive list of key combinations and their corres
 ---
 
 Ensure to replace `MODKEY` with your actual modifier key, usually `Alt` or `Super`. Adjust the commands according to your configuration if necessary.
+
+
+
+<br>
+
+# St (Suckless Terminal)
+
+## Default Keybindings<br>
+
+| Key Combination       | Action       |
+|-----------------------|--------------|
+| `ctrl + shift + c`    | Copy  <br>   |
+| `ctrl + shift + v`    | Paste <br>   |
+right click on the terminal ( will paste the copied thing )
+
+### Zoom
+| Key Combination     | Action          |
+|---------------------|-----------------|
+| `alt  + comma`      | Zoom in <br>    |
+| `alt  + .`          | Zoom out <br>   |
+| `alt  + g`          | Reset Zoom<br>  |
+
+### Transparency
+| Key Combination     | Action                     |
+|---------------------|----------------------------|
+| `alt  + s`          | Increase Transparency<br>  |
+| `alt  + a`          | Decrease Transparency<br>  |
+| `alt  + m`          | Reset Transparency<br>     |
+
+### scroll
+| Key Combination     | Action       |
+|---------------------|--------------|
+| `alt + k`           | scroll down  |
+| `alt + j`           | scroll up    |
+
+---
+
+you can change all of these in config.h
+<br>
